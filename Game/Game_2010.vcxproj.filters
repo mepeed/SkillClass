@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{ed2f98ab-4b0c-48c8-ae2b-a89ecb082723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Renderer">
+      <UniqueIdentifier>{995e9a5e-1154-4998-b8e3-2654cd41d9f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Object">
+      <UniqueIdentifier>{b5c38855-accb-4279-996f-7a7ff48c54ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Object\Player">
+      <UniqueIdentifier>{d6645f09-1d49-4888-9014-6bc8a1971397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Object\Monster">
+      <UniqueIdentifier>{8ddfd648-43d4-4c34-bd07-9894715ad413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Object\Item">
+      <UniqueIdentifier>{f2b30792-1518-4f14-b40f-68f9f7e2d791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Object\Player\Bullet">
+      <UniqueIdentifier>{8f1442e2-14a6-4d8d-a2ca-73c99c3be168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Base">
+      <UniqueIdentifier>{ce3f249e-4507-4924-aed2-f0139d7c1f1b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Core\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>Core\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Core\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Core\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Core\Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Core\Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Core\Object\Player\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="Asset.cpp" />
+    <ClCompile Include="DXUT\Optional\SDKsound.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKwavefile.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioClip.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Core\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Core\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Core\Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Core\Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Core\Object\Player\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="Asset.h" />
+    <ClInclude Include="DXUT\Optional\SDKsound.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKwavefile.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Core\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Core\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Core\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioClip.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="Game.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
